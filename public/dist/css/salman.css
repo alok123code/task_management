@@ -1,0 +1,128 @@
+.logo {
+    width: 4rem;
+    border-radius: 2.4rem;
+    margin-left: 1rem;
+    padding: .5rem;
+    margin-right: 8rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    margin-top: 1rem;
+}
+.ul-link{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.header ul a {
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown button{
+    font-size: 1.4rem;
+}
+
+.dropbtn {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+}
+
+.dropdown {
+    position: relative;
+    /* display: inline-block; */
+    
+}
+.category-cont{
+    position: absolute;
+    background-color: rebeccapurple;
+}
+
+.dropdown-content {
+    display: none;
+    width: 20rem;
+    padding: .5rem;
+    /* position: absolute; */
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 0rem 1rem;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    
+}
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* page css */
+.cat-cont{
+    margin-top: 5rem;
+}
+.catbox-cont{
+    height: 15rem;
+    background-color: #7ed6df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 4rem;
+}
+.content-section{
+    margin: 1rem 8rem;
+}
+.content-section h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.content-section p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.subcategory_catiner{
+    margin: 2rem 8rem;
+    /* margin-top: 2rem; */
+    display: flex;
+    gap: 3rem;
+}
+.subcategory_content h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.subcategory_content p{
+    font-size: 1.2rem;
+}
+.subcategory_link{
+    background-color: #3498db;
+    padding: .5rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-radius: .4rem;
+}
+.subcategory_link:hover{
+    color:#000;
+}
+.sub_image img{
+    width: 33rem;
+}
+.subpage-cont{
+    margin: 0rem 3rem;
+    margin-top: 7rem;
+}

@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: #576574;
+}
+.profile-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+}
+body{
+    background-image: url('../../assets/images/big/auth-bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+h2{
+    color:#d35400;
+}
+h2 span{
+    color:#7f8c8d;
+}
+.profilebtn{
+    background-color: #d35400;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    display: flex;
+    width: 39%;
+    font-weight: 600;
+    color:#000;
+}
+.image-cont{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+.image-cont img{
+    width: 70%;
+}
